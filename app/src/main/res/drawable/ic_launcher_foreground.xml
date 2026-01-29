@@ -5,7 +5,7 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Face - centered in the 108x108 safe zone (center 72dp) -->
+    <!-- Face - centered in the 108x108 safe zone -->
     <path
         android:fillColor="#FFE0B2"
         android:pathData="M54,24 C74,24 89,39 89,59 C89,84 74,99 54,99 C34,99 19,84 19,59 C19,39 34,24 54,24 Z" />
@@ -15,25 +15,25 @@
         android:fillColor="#5D4037"
         android:pathData="M54,18 C79,18 92,33 92,48 C92,38 79,27 54,27 C29,27 16,38 16,48 C16,33 29,18 54,18 Z" />
 
-    <!-- Left Eye -->
+    <!-- Left Eye White -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M38,55 C43,52 48,55 48,60 C48,65 43,68 38,66 C33,64 33,58 38,55 Z" />
-    <circle
-        android:fillColor="#333333"
-        android:centerX="42"
-        android:centerY="60"
-        android:radius="3" />
 
-    <!-- Right Eye -->
+    <!-- Left Eye Pupil -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M42,57 A3,3 0 1,1 42,63 A3,3 0 1,1 42,57 Z" />
+
+    <!-- Right Eye White -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M70,55 C65,52 60,55 60,60 C60,65 65,68 70,66 C75,64 75,58 70,55 Z" />
-    <circle
+
+    <!-- Right Eye Pupil -->
+    <path
         android:fillColor="#333333"
-        android:centerX="66"
-        android:centerY="60"
-        android:radius="3" />
+        android:pathData="M66,57 A3,3 0 1,1 66,63 A3,3 0 1,1 66,57 Z" />
 
     <!-- Smile -->
     <path
@@ -42,17 +42,13 @@
         android:strokeWidth="2.5"
         android:pathData="M40,75 Q54,88 68,75" />
 
-    <!-- Cheeks -->
-    <ellipse
+    <!-- Left Cheek -->
+    <path
         android:fillColor="#FFCDD2"
-        android:centerX="28"
-        android:centerY="70"
-        android:radiusX="6"
-        android:radiusY="4" />
-    <ellipse
+        android:pathData="M28,66 A6,4 0 1,1 28,74 A6,4 0 1,1 28,66 Z" />
+
+    <!-- Right Cheek -->
+    <path
         android:fillColor="#FFCDD2"
-        android:centerX="80"
-        android:centerY="70"
-        android:radiusX="6"
-        android:radiusY="4" />
+        android:pathData="M80,66 A6,4 0 1,1 80,74 A6,4 0 1,1 80,66 Z" />
 </vector>
