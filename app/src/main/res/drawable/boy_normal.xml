@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Face -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M100,30 C140,30 170,60 170,100 C170,150 140,180 100,180 C60,180 30,150 30,100 C30,60 60,30 100,30 Z" />
+
+    <!-- Hair -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M100,20 C150,20 175,50 175,80 C175,60 150,35 100,35 C50,35 25,60 25,80 C25,50 50,20 100,20 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M30,70 C30,50 50,25 100,25 C150,25 170,50 170,70 C170,55 150,40 100,40 C50,40 30,55 30,70 Z" />
+
+    <!-- Left Eye -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,90 C75,85 85,90 85,100 C85,110 75,115 65,110 C55,105 55,95 65,90 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M72,95 A5,5 0 1,1 72,105 A5,5 0 1,1 72,95 Z" />
+
+    <!-- Right Eye -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M135,90 C125,85 115,90 115,100 C115,110 125,115 135,110 C145,105 145,95 135,90 Z" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M128,95 A5,5 0 1,1 128,105 A5,5 0 1,1 128,95 Z" />
+
+    <!-- Smile -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#E91E63"
+        android:strokeWidth="4"
+        android:pathData="M70,130 Q100,155 130,130" />
+
+    <!-- Cheeks (blush) -->
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M45,115 A12,8 0 1,1 45,131 A12,8 0 1,1 45,115 Z" />
+    <path
+        android:fillColor="#FFCDD2"
+        android:pathData="M155,115 A12,8 0 1,1 155,131 A12,8 0 1,1 155,115 Z" />
+
+</vector>

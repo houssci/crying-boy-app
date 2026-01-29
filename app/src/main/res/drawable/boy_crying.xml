@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Face -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M100,30 C140,30 170,60 170,100 C170,150 140,180 100,180 C60,180 30,150 30,100 C30,60 60,30 100,30 Z" />
+
+    <!-- Hair -->
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M100,20 C150,20 175,50 175,80 C175,60 150,35 100,35 C50,35 25,60 25,80 C25,50 50,20 100,20 Z" />
+    <path
+        android:fillColor="#5D4037"
+        android:pathData="M30,70 C30,50 50,25 100,25 C150,25 170,50 170,70 C170,55 150,40 100,40 C50,40 30,55 30,70 Z" />
+
+    <!-- Left Eye (closed/squinting) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#333333"
+        android:strokeWidth="4"
+        android:pathData="M55,100 Q70,95 85,100" />
+
+    <!-- Right Eye (closed/squinting) -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#333333"
+        android:strokeWidth="4"
+        android:pathData="M115,100 Q130,95 145,100" />
+
+    <!-- Sad Mouth (open crying) -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M70,135 Q100,120 130,135 Q100,155 70,135 Z" />
+
+    <!-- Tears left -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M60,105 Q55,120 60,140 Q65,120 60,105 Z" />
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M50,115 Q45,130 50,150 Q55,130 50,115 Z" />
+
+    <!-- Tears right -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M140,105 Q145,120 140,140 Q135,120 140,105 Z" />
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M150,115 Q155,130 150,150 Q145,130 150,115 Z" />
+
+    <!-- Sad eyebrows -->
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="3"
+        android:pathData="M55,85 Q70,80 85,90" />
+    <path
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#5D4037"
+        android:strokeWidth="3"
+        android:pathData="M145,85 Q130,80 115,90" />
+
+</vector>

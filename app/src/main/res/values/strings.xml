@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Crying Boy</string>
+    <string name="tap_the_boy">Tap the boy!</string>
+    <string name="boy_image_description">A boy that cries when tapped</string>
+</resources>
