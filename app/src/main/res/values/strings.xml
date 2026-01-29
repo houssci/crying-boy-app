@@ -3,4 +3,5 @@
     <string name="app_name">Crying Boy</string>
     <string name="tap_the_boy">Tap the boy!</string>
     <string name="boy_image_description">A boy that cries when tapped</string>
+    <string name="subtitle_text">我是领导，打我！</string>
 </resources>
